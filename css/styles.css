@@ -1,5 +1,6 @@
 /* common shared styles */
 body {
+  margin: 0;
   font-family: "Open Sans", sans-serif;
 }
 .text-primary {
@@ -14,11 +15,21 @@ body {
   font-weight: 700;
   padding: 18px 35px;
 }
+.btn-secondary {
+  border-radius: 5px;
+  background-color: white;
+  border: 3px;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+}
 /* nav related styles */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .web-title {
   color: #181818;
@@ -32,8 +43,43 @@ nav > ul {
 nav li {
   list-style: none;
   margin-right: 50px;
+  font-weight: 700;
 }
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* header related styles */
+.header {
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner {
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-conten {
+  max-width: 500px;
+}
+.banner-img {
+  width: 500px;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin: 0;
+}
+.banner-title {
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 5px;
+  padding-bottom: 0px;
+}
+.banner-description {
+  margin-top: 0;
 }
